@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html{
+    font-family:"Poppins";
+    max-width: 70ch;
+    padding: 1em;
+    margin: auto;
+    line-height: 1;
+    font-size: 1em;
+    background-color: blue;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0.5em 0 0.5em;
+    color: yellow;
+}
+
+p, ul, ol {
+    margin-bottom: 1em;
+    color: #1d1d1d;
+    font-family: "Poppins";
+}
+
+button {
+    font-family: ;
+    background-color: ;
+    border: ;
+    color: ;
+    padding: ;
+    text-align: ;
+    text-decoration: ;
+    display: ;
+    font-size: ;
+    margin: ;
+    border-radius: ;
+    cursor: pointer ;
+}
+
+button[name="run"] {
+    font-family: ;
+    animation: white-glow 2.35s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes white-glow {
+    from {
+        box-shadow: ;
+    }
+    to {
+        box-shadow: ;
+    }
+}
+
+button[name="clear"] {
+    
+}
