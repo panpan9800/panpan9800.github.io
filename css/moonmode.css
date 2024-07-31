@@ -7,12 +7,14 @@
 }
 
 body{
+    font-family: "Poppins";
     min-height: 100vh;
     overflow-x: hidden;
     background: linear-gradient(#2b1055, #7597de);
 }
 
 header{
+    font-family: "Poppins";
     position: absolute;
     top: 0;
     left: 0;
@@ -40,6 +42,7 @@ header ul{
 }
 
 header ul li{
+    font-family: "Poppins";
     list-style: none;
     padding: 6px 15px;
     color:#fff ;
@@ -113,6 +116,7 @@ section::before{
 }
 
 .content {
+    font-family: "Poppins";
     position: relative;
     padding: 100px;
     background: #1c0522;
