@@ -102,7 +102,22 @@ section .btn{
     color: #2b1055;
     font-size: 1.5em;
     z-index: 1;
-    transform: translateY(100px);
+    font-family: 'Poppins';
+    box-shadow: 
+        40px 40px 50px rgba(0,0,0,0.2),
+        -40px -40px 50px rgba(225,225,225,0.5);
+    user-select: none;
+    transition: all 0.4s ease-out;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 
+        0 0 0 rgba(0,0,0,0.2),
+        0 0 0 rgba(225,225,225,0.8),
+        inset 30px 30px 40px rgba(0,225,225,0.2),
+        inset -30px -30px 40px rgba(0,225,0,0.8);
 }
 
 section::before{
